@@ -1,1 +1,1 @@
-COVERALLS_REPO_TOKEN=insertcoverallrepotokenhere
+export COVERALLS_REPO_TOKEN=insertcoverallrepotokenhere
