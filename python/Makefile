@@ -77,8 +77,10 @@ ifeq ($(PYV_GT_3_6),0)
 endif
 ifdef UNFREEZE
 	$(PIP) install -r $(PYTHON_REQUIREMENTS)
+	jupyter nbextension enable --py widgetsnbextension --sys-prefix
 else
 	$(PIP) install -r $(PYTHON_FROZEN_REQUIREMENTS)
+	jupyter nbextension enable --py widgetsnbextension --sys-prefix
 endif
 
 
