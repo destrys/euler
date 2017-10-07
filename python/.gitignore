@@ -1,2 +1,6 @@
 .virtualenv/
 .ipynb_checkpoints/
+.cache/
+.coverage
+*__pycache__*
+config/env.sh

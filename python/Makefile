@@ -107,5 +107,7 @@ purge-code:
 
 test-python:
 	$(PYTESTS) --cov=destryseuler --cov-config=config/coverage.cfg
-	rm coverage.svg
-	coverage-badge -o coverage.svg
+	coveralls
+
+#rm coverage.svg
+#coverage-badge -o coverage.svg
