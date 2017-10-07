@@ -10,3 +10,4 @@ but I don't hide the punchline. Explore at your own risk.
 # Python
 ---
 [![Coverage Status](https://coveralls.io/repos/github/destrys/euler/badge.svg)](https://coveralls.io/github/destrys/euler)
+[![Build Status](https://travis-ci.org/destrys/euler.svg?branch=master)](https://travis-ci.org/destrys/euler)
